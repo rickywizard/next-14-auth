@@ -28,9 +28,17 @@ yarn-error.log*
 # local env files
 .env*.local
 
+# env
+.env
+
 # vercel
 .vercel
 
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+certificates
+
+database/pgadmin_data
+database/postgres_data

@@ -1,0 +1,81 @@
+.dashboard-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: hsl(0, 0%, 97.5%);
+
+  .dashboard-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    border-radius: 1rem;
+    box-shadow: 0 4px 8px hsl(0, 0%, 70%);
+    background-color: white;
+
+    .admin-link {
+      text-decoration: none;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+
+    .name {
+      font-weight: bold;
+      font-size: large;
+    }
+
+    .field-input-container {
+      width: 80%;
+      margin-top: 1rem;
+      margin-bottom: 1rem;
+
+      .field-input {
+        font-size: medium;
+        width: 100%;
+        padding: 1rem;
+        border: 1px solid hsl(0, 0%, 70%);
+        border-radius: 1rem;
+        box-sizing: border-box;
+      }
+    }
+
+    .update-field-button {
+      width: 100%;
+      padding: 1rem;
+      margin-top: 1rem;
+      font-weight: bold;
+      color: white;
+      background-color: hsl(27, 86%, 48%);
+      border: 1px solid hsl(27, 86%, 48%);
+      border-radius: 1rem;
+      cursor: pointer;
+      font-size: 1rem;
+
+      &:hover {
+        background-color: hsl(27, 86%, 58%);
+      }
+    }
+
+    .link-account-button {
+      width: 100%;
+      padding: 1rem;
+      margin-top: 1rem;
+      margin-bottom: 1rem;
+      font-weight: bold;
+      color: white;
+      background-color: hsl(208, 86%, 48%);
+      border: none;
+      border-radius: 1rem;
+      cursor: pointer;
+      font-size: 1rem;
+
+      &:hover {
+        background-color: hsl(208, 86%, 48%);
+      }
+    }
+  }
+}
