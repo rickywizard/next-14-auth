@@ -40,5 +40,5 @@ next-env.d.ts
 
 certificates
 
-/database/pgadmin_data
-/database/postgres_data
+database/pgadmin_data
+database/postgres_data
